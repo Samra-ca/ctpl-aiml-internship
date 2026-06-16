@@ -1,0 +1,12 @@
+AI/ML Internship Program
+
+Week 1 - Day 2
+
+Topics Covered:
+1. Object Oriented Programming
+2. Error Handling
+3. File Input and Output
+
+This file is used for file handling practice.
+
+Practice completed successfully.

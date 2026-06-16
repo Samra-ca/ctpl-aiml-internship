@@ -1,0 +1,11 @@
+{
+    "company": "Cooperative Tech",
+    "program": "AI/ML Internship",
+    "week": 1,
+    "day": 2,
+    "topics": [
+        "OOP",
+        "Error Handling",
+        "File I/O"
+    ]
+}
