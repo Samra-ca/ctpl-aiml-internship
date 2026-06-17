@@ -2,6 +2,15 @@
 
 ## Python Revision: OOP, Error Handling & File I/O
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![OOP](https://img.shields.io/badge/OOP-Classes_&_Objects-success)
+![CSV](https://img.shields.io/badge/CSV-File_Processing-green)
+![JSON](https://img.shields.io/badge/JSON-Data_Handling-yellow)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-007ACC)
+![GitHub](https://img.shields.io/badge/GitHub-Version_Control-181717)
+
+---
+
 ### Objective
 
 The purpose of Day 2 was to strengthen core Python programming skills required for Data Science and Machine Learning projects. The focus was on Object-Oriented Programming (OOP), Exception Handling, and File Input/Output operations.
