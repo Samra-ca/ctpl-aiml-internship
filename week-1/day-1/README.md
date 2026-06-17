@@ -2,6 +2,13 @@
 
 ## AI/ML Internship Program
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-007ACC)
+![Git](https://img.shields.io/badge/Git-Version_Control-F05032)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717)
+
+---
+
 ### Intern Details
 
 * **Name:** Samra Fatima
