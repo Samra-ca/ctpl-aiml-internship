@@ -1,4 +1,4 @@
-# 🚀 CTPL AI/ML Internship
+#  CTPL AI/ML Internship
 
 ### Cooperative Technology Company (CTPL)
 ### 9-Week Onsite Artificial Intelligence & Machine Learning Internship
@@ -21,7 +21,7 @@
 
 ---
 
-# 📖 About The Internship
+#  About The Internship
 
 This repository contains all learning materials, tasks, assignments, projects, reports, notebooks, and documentation completed during the **9-Week Onsite AI/ML Internship Program** at **Cooperative Technology Company (CTPL)**.
 
@@ -31,7 +31,7 @@ All work completed throughout the internship is organized week-wise and maintain
 
 ---
 
-# 🎯 Internship Objectives
+#  Internship Objectives
 
 - Strengthen Python programming skills
 - Develop expertise in data analysis and visualization
@@ -44,7 +44,7 @@ All work completed throughout the internship is organized week-wise and maintain
 
 ---
 
-# 📚 Internship Roadmap
+#  Internship Roadmap
 
 ## Week 1 — Python & Data Foundations
 - Python Programming
@@ -101,7 +101,7 @@ All work completed throughout the internship is organized week-wise and maintain
 
 ---
 
-# 🛠 Technologies & Tools
+#  Technologies & Tools
 
 - Python
 - SQL
@@ -147,7 +147,7 @@ ctpl-aiml-internship/
 
 <div align="center">
 
-## 👩‍💻 Author
+##  Author
 
 ### Samra Fatima
 
@@ -155,7 +155,7 @@ ctpl-aiml-internship/
 
 Passionate about Artificial Intelligence, Machine Learning, Data Science, Computer Vision, Natural Language Processing, and Software Development.
 
-### 📫 Connect With Me
+###  Connect With Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-Samra--ca-181717?style=for-the-badge&logo=github)](https://github.com/Samra-ca)
 
