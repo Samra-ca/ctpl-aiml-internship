@@ -151,7 +151,7 @@ ctpl-aiml-internship/
 
 ### Samra Fatima
 
-**AI/ML Intern | BS Software Engineering Student**
+**AI/ML Intern | BS Artificial Intelligence Student**
 
 Passionate about Artificial Intelligence, Machine Learning, Data Science, Computer Vision, Natural Language Processing, and Software Development.
 
