@@ -116,7 +116,7 @@ employee-attrition-predictor/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Samra-ca/employee-attrition-predictor.git
+git clone https://github.com/Samra-ca/ctpl-aiml-internship/tree/main/week-3/project-1/employee-attrition-predictor.git
 cd employee-attrition-predictor
 ```
 
