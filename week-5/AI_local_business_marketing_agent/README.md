@@ -345,9 +345,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 13. AUTHOR
 
-**Your Name**  
-Email: your.email@example.com  
-GitHub: [github.com/your-username](https://github.com/your-username)
+**Samra Fatima**  
+Email: sminhas1405@gmail.com  
+GitHub: [https://github.com/Samra-ca/ctpl-aiml-internship/tree/main/week-5/AI_local_business_marketing_agent](https://github.com/Samra-ca/ctpl-aiml-internship/tree/main/week-5/AI_local_business_marketing_agent)
 
 ---
 
