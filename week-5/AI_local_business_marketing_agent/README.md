@@ -3,8 +3,10 @@
 **Automated Marketing Suite for Local Businesses**
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.59+-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Tests](https://img.shields.io/badge/Tests-Pytest-orange)
+![Code Style](https://img.shields.io/badge/Code%20Style-Black-black)
 
 ---
 
@@ -28,14 +30,14 @@ Media Upload (images/videos) + Hashtag optimization
 ┌─────────────────────────────┴─────────────────────────────┐
 ↓                                                           ↓
 Save as Draft                                        Schedule / Publish
-                                                          ↓
-                                               ┌──────────────┴──────────────┐
-                                               ↓                             ↓
-                                          Immediate                         Scheduled
-                                               ↓                             ↓
-                                      Platform API / Webhook           Background Scheduler
-                                               ↓                             ↓
-                                         Live Post                       Auto-Publish
+                                                           ↓
+                                                ┌──────────────┴──────────────┐
+                                                ↓                             ↓
+                                           Immediate                         Scheduled
+                                                ↓                             ↓
+                                       Platform API / Webhook           Background Scheduler
+                                                ↓                             ↓
+                                          Live Post                       Auto-Publish
 ```
 
 ---
@@ -60,6 +62,8 @@ Save as Draft                                        Schedule / Publish
 | **Email Campaign Builder** | HTML email template generation with preview |
 | **WhatsApp Campaign Builder** | WhatsApp-formatted message generation with preview |
 | **Settings & Customization** | Business profile, AI tone/style, API keys, data management, appearance themes |
+| **Duplicate & Clone Campaigns** | One-click campaign duplication for rapid iteration |
+| **Data Export/Import** | Backup and restore campaign data in JSON format |
 
 ---
 
@@ -68,14 +72,20 @@ Save as Draft                                        Schedule / Publish
 | Layer | Technology |
 |-------|------------|
 | **Language** | Python 3.8+ |
-| **Frontend Framework** | Streamlit 1.28+ |
+| **Frontend Framework** | Streamlit 1.59+ |
 | **AI/ML** | Custom template engine + TextBlob sentiment analysis |
-| **Database** | SQLite (via custom DatabaseManager) |
+| **Database** | SQLite (via custom DatabaseManager with connection pooling) |
 | **Scheduling** | APScheduler (background jobs) |
 | **Visualization** | Plotly (interactive charts) |
+| **Data Processing** | Pandas, NumPy |
+| **Image Processing** | Pillow (PIL) |
+| **Environment Config** | python-dotenv |
 | **Styling** | Custom CSS3 with CSS Variables, animations, glassmorphism |
 | **Icons** | Inline SVG (no external dependencies) |
 | **Fonts** | Space Grotesk + Manrope (Google Fonts) |
+| **Testing** | Pytest |
+| **Code Formatting** | Black, isort |
+| **Linting** | Flake8, Pylint |
 
 ---
 
@@ -85,15 +95,21 @@ Save as Draft                                        Schedule / Publish
 ai-local-business-marketing-agent/
 │
 ├── app.py                      # Main Streamlit application entry point
+├── check_syntax.py             # Syntax validation script
 ├── requirements.txt            # Python dependencies
 ├── .env.example                # Environment variable template
 ├── .gitignore
 ├── README.md
 │
+├── assets/                     # Static assets (logos, icons, images)
+│   └── __init__.py
+│
 ├── config/
+│   ├── __init__.py
 │   └── settings.py             # App config, business types, platforms, templates
 │
 ├── models/
+│   ├── __init__.py
 │   ├── content_generator.py    # AI template-based content generation
 │   ├── social_media.py         # Facebook/Instagram posting logic
 │   ├── email_campaign.py       # Email campaign builder
@@ -102,20 +118,33 @@ ai-local-business-marketing-agent/
 │   └── sentiment_analyzer.py   # TextBlob-based sentiment scoring
 │
 ├── frontend/
+│   ├── __init__.py
 │   ├── components/
+│   │   ├── __init__.py
+│   │   ├── sidebar.py          # Navigation sidebar component
 │   │   ├── dashboard.py        # Analytics + quick actions
 │   │   ├── campaign_creator.py # Content creation wizard
 │   │   ├── analytics.py        # Charts + insights
 │   │   └── settings.py         # Business profile, AI, API, data, appearance
 │   └── styles/
+│       ├── __init__.py
 │       └── custom.css          # Complete design system (Aurora/Neon theme)
 │
 ├── utils/
+│   ├── __init__.py
 │   ├── database.py             # SQLite CRUD + connection pooling
-│   └── analytics.py            # Aggregation + performance summaries
+│   ├── analytics.py            # Aggregation + performance summaries
+│   ├── validators.py           # Input validation utilities
+│   └── formatters.py           # Data formatting utilities
 │
 ├── data/
+│   ├── __init__.py
 │   └── campaigns.db            # SQLite database (auto-created)
+│
+├── tests/                      # Unit & integration tests
+│   ├── __init__.py
+│   ├── test_content_generator.py
+│   └── test_campaigns.py
 │
 └── notebooks/                  # Jupyter notebooks for experimentation
 ```
@@ -241,7 +270,43 @@ engagement_data TEXT          -- JSON: likes, comments, shares, reach
 
 ---
 
-## 9. FUTURE ROADMAP
+## 9. DEVELOPMENT
+
+### Running Tests
+```bash
+# Run all tests
+pytest tests/
+
+# Run with coverage
+pytest tests/ --cov=.
+
+# Run specific test file
+pytest tests/test_content_generator.py -v
+```
+
+### Code Quality
+```bash
+# Format code with Black
+black .
+
+# Sort imports with isort
+isort .
+
+# Lint with flake8
+flake8 .
+
+# Type checking (if using mypy)
+mypy .
+```
+
+### Syntax Check
+```bash
+python check_syntax.py
+```
+
+---
+
+## 10. FUTURE ROADMAP
 
 - [ ] **Real LLM Integration** — Replace template engine with OpenAI/Anthropic for true generative AI
 - [ ] **Direct API Publishing** — Full Facebook/Instagram Graph API, Google Business API, WhatsApp Business API
@@ -256,7 +321,7 @@ engagement_data TEXT          -- JSON: likes, comments, shares, reach
 
 ---
 
-## 10. CONTRIBUTING
+## 11. CONTRIBUTING
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -264,15 +329,21 @@ engagement_data TEXT          -- JSON: likes, comments, shares, reach
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+### Development Guidelines
+- Follow PEP 8 style guide
+- Write tests for new features
+- Update documentation for API changes
+- Use conventional commit messages
+
 ---
 
-## 11. LICENSE
+## 12. LICENSE
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 12. AUTHOR
+## 13. AUTHOR
 
 **Your Name**  
 Email: your.email@example.com  
@@ -280,14 +351,46 @@ GitHub: [github.com/your-username](https://github.com/your-username)
 
 ---
 
-## 13. ACKNOWLEDGMENTS
+## 14. ACKNOWLEDGMENTS
 
 - [Streamlit](https://streamlit.io/) — Rapid data app framework
 - [Plotly](https://plotly.com/python/) — Interactive visualizations
 - [TextBlob](https://textblob.readthedocs.io/) — Sentiment analysis
 - [APScheduler](https://apscheduler.readthedocs.io/) — Background scheduling
+- [Pandas](https://pandas.pydata.org/) — Data manipulation
+- [NumPy](https://numpy.org/) — Numerical computing
+- [Pillow](https://pillow.readthedocs.io/) — Image processing
+- [python-dotenv](https://github.com/theskumar/python-dotenv) — Environment management
 - [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) & [Manrope](https://fonts.google.com/specimen/Manrope) — Typography
 - [SVG Repo](https://www.svgrepo.com/) — Navigation icons
+
+---
+
+## 15. TOOLS & UTILITIES
+
+### Built-in Tools
+| Tool | Purpose | Location |
+|------|---------|----------|
+| **Content Generator** | Template-based AI content creation | `models/content_generator.py` |
+| **Sentiment Analyzer** | Real-time sentiment scoring | `models/sentiment_analyzer.py` |
+| **Social Media Manager** | Facebook/Instagram posting | `models/social_media.py` |
+| **Email Campaign Builder** | HTML email templates | `models/email_campaign.py` |
+| **WhatsApp Campaign Builder** | WhatsApp message formatting | `models/whatsapp_campaign.py` |
+| **Google Business Manager** | Google Business Profile API | `models/google_business.py` |
+| **Database Manager** | SQLite CRUD operations | `utils/database.py` |
+| **Analytics Engine** | Performance aggregation | `utils/analytics.py` |
+| **Validators** | Input validation utilities | `utils/validators.py` |
+| **Formatters** | Data formatting utilities | `utils/formatters.py` |
+
+### External Tools Integrated
+| Tool | Purpose | Integration |
+|------|---------|-------------|
+| **Facebook Graph API** | Social media posting | `models/social_media.py` |
+| **Instagram Basic Display API** | Instagram posting | `models/social_media.py` |
+| **WhatsApp Business API** | WhatsApp messaging | `models/whatsapp_campaign.py` |
+| **Google My Business API** | Google Business posts | `models/google_business.py` |
+| **SMTP** | Email delivery | `models/email_campaign.py` |
+| **APScheduler** | Background job scheduling | `app.py` |
 
 ---
 
