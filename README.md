@@ -1,7 +1,7 @@
 #  CTPL AI/ML Internship
 
 ### Cooperative Technology Company (CTPL)
-### 9-Week Onsite Artificial Intelligence & Machine Learning Internship
+### 8-Week Onsite Artificial Intelligence & Machine Learning Internship
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -23,7 +23,7 @@
 
 #  About The Internship
 
-This repository contains all learning materials, tasks, assignments, projects, reports, notebooks, and documentation completed during the **9-Week Onsite AI/ML Internship Program** at **Cooperative Technology Company (CTPL)**.
+This repository contains all learning materials, tasks, assignments, projects, reports, notebooks, and documentation completed during the **8-Week Onsite AI/ML Internship Program** at **Cooperative Technology Company (CTPL)**.
 
 The internship is designed to provide practical industry-level experience in Artificial Intelligence, Machine Learning, Data Analysis, Deep Learning, Computer Vision, Natural Language Processing, Generative AI, and AI application deployment.
 
@@ -93,7 +93,6 @@ All work completed throughout the internship is organized week-wise and maintain
 - Embeddings
 - RAG Systems
 
-## Week 9 — Capstone Project
 - End-to-End AI Solution
 - FastAPI
 - Streamlit
@@ -140,7 +139,6 @@ ctpl-aiml-internship/
 ├── week-6/
 ├── week-7/
 ├── week-8/
-├── week-9/
 │
 └── README.md
 ```
