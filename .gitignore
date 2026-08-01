@@ -18,3 +18,20 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Python
+venv/
+.venv/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML Models
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Large output folders
+outputs/models/
