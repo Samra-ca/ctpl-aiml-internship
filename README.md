@@ -201,64 +201,64 @@ Full-stack AI-powered career development platform.
 #  Technologies & Tools
 
 ### Programming & Scripting
-- Python
-- SQL
-- JavaScript / React
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### Data Processing & Analysis
-- NumPy
-- Pandas
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 
 ### Data Visualization
-- Matplotlib
-- Seaborn
-- Plotly
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 ### Databases
-- MySQL
-- PostgreSQL
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### Machine Learning
-- Scikit-Learn
-- XGBoost
-- Support Vector Machines (SVM)
-- GridSearchCV
-- SMOTE
-- Ridge, Lasso & ElasticNet Regularization
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC1C24?style=for-the-badge)
+![SVM](https://img.shields.io/badge/SVM-336791?style=for-the-badge)
+![GridSearchCV](https://img.shields.io/badge/GridSearchCV-F7931E?style=for-the-badge)
+![SMOTE](https://img.shields.io/badge/SMOTE-7A1FA2?style=for-the-badge)
+![Regularization](https://img.shields.io/badge/Regularization-003B57?style=for-the-badge)
 
 ### Deep Learning
-- TensorFlow
-- Keras
-- Artificial Neural Networks (ANN)
-- Convolutional Neural Networks (CNN)
-- Transfer Learning (MobileNetV2, ResNet50)
-- Batch Normalization, Dropout
-- Grad-CAM Explainability
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![ANN](https://img.shields.io/badge/ANN-16A085?style=for-the-badge)
+![CNN](https://img.shields.io/badge/CNN-8E44AD?style=for-the-badge)
+![Transfer Learning](https://img.shields.io/badge/Transfer_Learning-2E86C1?style=for-the-badge)
+![Grad-CAM](https://img.shields.io/badge/Grad--CAM-E74C3C?style=for-the-badge)
 
 ### Computer Vision
-- OpenCV
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 ### NLP & Generative AI
-- NLTK
-- Transformers
-- LangChain
-- Google Gemini
-- Groq
+![NLTK](https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
 
 ### Web & Application Development
-- Streamlit
-- FastAPI
-- React
-- Vite
-- Firebase Authentication
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 ### Version Control & Tools
-- Git
-- GitHub
-- Jupyter Notebook
-- Google Colab
-- Visual Studio Code
-- MySQL Workbench
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
